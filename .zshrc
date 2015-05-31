@@ -1,5 +1,5 @@
 # Path to your oh-my-zsh installation.
-export ZSH=/home/msantini/.oh-my-zsh
+export ZSH=$HOME/.oh-my-zsh
 
 #theme
 ZSH_THEME="kolo"
@@ -23,6 +23,11 @@ source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
 export PATH=$PATH:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games
+
+#alias
+##some alias
+
+#Additional exports
 
 export LD_LIBRARY_PATH=/opt/oracle/instantclient_12_1
 export HERMES_DB_PASS=123456pass
