@@ -25,7 +25,7 @@ source $ZSH/oh-my-zsh.sh
 export PATH=$PATH:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games
 
 #alias
-##some alias
+alias python=python3
 
 #Additional exports
 
