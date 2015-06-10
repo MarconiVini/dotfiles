@@ -2,16 +2,16 @@
 
 ### Sublime Preferences
 
-just copy my preferences to your current sublime configuration:
+Make an symbolic link to your Sublime-text-3 user settings:
 
 ```
-$cp Preferences.sublime-settings /home/#{user_name}/.config/sublime-text-3/Packages/User
+$ sudo ln -sv $$PATH_TO_YOUR_PREFERENCES_FILE $HOME/.config/sublime-text-3/Packages/User/Preferences.sublime-settings
 ```
 
 ### oh-my-zsh configuration file
 
-just copy my preferences to the ~ directory
+Make an symbolic link to your home directory that links .zshrc file
 
 ```
-$cp .zshrc ~
+$ sudo ln -sv $PATH_TO_YOUR_ZSHRC_FILE ~/.zshrc 
 ```
