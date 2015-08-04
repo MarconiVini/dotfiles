@@ -9,8 +9,7 @@
 	[
 		"Vintage"
 	],
+	"pylint_path": "/usr/bin/pylint",
 	"tab_size": 2,
-	"translate_tabs_to_spaces": true,
-	"pylint_path": "/usr/bin/pylint"
-
+	"translate_tabs_to_spaces": true
 }

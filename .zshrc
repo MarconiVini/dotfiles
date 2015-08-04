@@ -32,9 +32,14 @@ alias python=python3
 export LD_LIBRARY_PATH=/opt/oracle/instantclient_12_1
 export HERMES_DB_PASS=123456pass
 
+export HOOKSHOT_DB_PASS=123456pass
+
 PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
 PATH=$PATH:$HOME/phantomjs/bin # Add phantomjs
 PATH=$PATH:$LD_LIBRARY_PATH # Oracle client
+PATH=$PATH:/opt/android-studio/bin
+PATH=$PATH:$HOME/Android/Sdk/platform-tools
+
 
 export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
 export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
