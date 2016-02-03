@@ -8,10 +8,7 @@ ZSH_THEME="kolo"
 plugins=(git debian rails rvm ruby z)
 
 # User configuration
-
-#export PATH=$PATH:"/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/home/msantini/.rvm/bin:/home/msantini/phantomjs/bin:/opt/oracle/instantclient_12_1"
-
-source $ZSH/oh-my-zsh.sh
+#export PATH=$PATH:"/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games"
 
 # ssh
 export SSH_KEY_PATH="~/.ssh"
@@ -30,15 +27,11 @@ alias python=python3
 #Additional exports
 
 export LD_LIBRARY_PATH=/opt/oracle/instantclient_12_1
-export HERMES_DB_PASS=123456pass
-
-export HOOKSHOT_DB_PASS=123456pass
 
 PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
 PATH=$PATH:$HOME/phantomjs/bin # Add phantomjs
 PATH=$PATH:$LD_LIBRARY_PATH # Oracle client
-PATH=$PATH:/opt/android-studio/bin
-PATH=$PATH:$HOME/Android/Sdk/platform-tools
+
 
 
 export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
