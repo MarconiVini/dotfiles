@@ -15,9 +15,6 @@ export SSH_KEY_PATH="~/.ssh"
 
 source $ZSH/oh-my-zsh.sh
 
-# retarded rvm
-[[ -s "$HOME/.rvm/scripts/rvm"  ]] && . "$HOME/.rvm/scripts/rvm"
-
 # Customize to your needs...
 export PATH=$PATH:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games
 
@@ -25,14 +22,10 @@ export PATH=$PATH:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/
 alias python=python3
 
 #Additional exports
-
 export LD_LIBRARY_PATH=/opt/oracle/instantclient_12_1
 
-PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
 PATH=$PATH:$HOME/phantomjs/bin # Add phantomjs
 PATH=$PATH:$LD_LIBRARY_PATH # Oracle client
 
-
-
-export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
+# retarded rvm
 export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
