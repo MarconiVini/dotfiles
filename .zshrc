@@ -7,19 +7,19 @@ ZSH_THEME="kolo"
 #plugins
 plugins=(git debian rails rvm ruby z)
 
-# User configuration
-#export PATH=$PATH:"/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games"
-
 # ssh
 export SSH_KEY_PATH="~/.ssh"
 
 source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
-export PATH=$PATH:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games
+PATH=$PATH:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games
 
 #alias
 alias python=python3
+
+#mongo
+PATH=$PATH:/opt/mongodb-linux-x86_64-3.2.1/bin
 
 #Additional exports
 export LD_LIBRARY_PATH=/opt/oracle/instantclient_12_1
