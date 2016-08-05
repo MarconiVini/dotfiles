@@ -18,6 +18,9 @@ PATH=$PATH:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/gam
 #alias
 alias python=python3
 
+#java
+PATH=$PATH:/usr/local/java/jre1.8.0_77/bin
+
 #mongo
 PATH=$PATH:/opt/mongodb-linux-x86_64-3.2.1/bin
 
@@ -27,5 +30,10 @@ export LD_LIBRARY_PATH=/opt/oracle/instantclient_12_1
 PATH=$PATH:$HOME/phantomjs/bin # Add phantomjs
 PATH=$PATH:$LD_LIBRARY_PATH # Oracle client
 
+source $HOME/.kiex/elixirs/elixir-1.2.3.env
+
+
+# retarded kiex
+[[ -s "$HOME/.kiex/scripts/kiex" ]] && source "$HOME/.kiex/scripts/kiex"
 # retarded rvm
-export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
+export PATH="$HOME/.rvm/bin:$PATH" # Add RVM to PATH for scripting
